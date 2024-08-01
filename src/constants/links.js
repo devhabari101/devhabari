@@ -8,6 +8,18 @@ const Links = ({ styleClass, children }) => {
           Nyumbani
         </Link>
       </li>
+
+       <li>
+        <Link to="" className="page-link">
+          Tafsiri ya Qur-aan
+        </Link>
+      </li>
+
+       <li>
+        <Link to="" className="page-link">
+          Hutuba za ijumaa
+        </Link>
+      </li>
       
       <li>
         <Link to="/kuhusu-sisi" className="page-link">
