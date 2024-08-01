@@ -20,7 +20,7 @@ const RecentPosts = () => {
     <section className="container">
       <div className="row">
         <div className="col-lg-8 col-12">
-          <h2 className="section-title">Makala Mpya</h2>
+          <h2 className="section-title">Makala Mbalimbali</h2>
 
           {posts.map(post => {
             const { title, category, date, slug, image } = post.frontmatter
