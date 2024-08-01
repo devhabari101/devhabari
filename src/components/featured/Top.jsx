@@ -48,7 +48,7 @@ const Top = () => {
 
   return (
     <div className="col-md-4 col-12">
-      <h2 className="section-title">Chapisho La Wiki</h2>
+      <h2 className="section-title">Nasiha</h2>
 
       {posts.map(post => {
         const { title, category, date, image } = post.frontmatter
