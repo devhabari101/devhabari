@@ -22,7 +22,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
 
             // to="https://www.buymeacoffee.com/chrismorrison"
           >
-            Tuwezeshe
+            Michango
           </Link>
         </div>
       </aside>
