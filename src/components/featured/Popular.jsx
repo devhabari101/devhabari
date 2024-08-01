@@ -47,7 +47,7 @@ const Popular = () => {
 
   return (
     <div className="col-md-4 col-12">
-      <h2 className="section-title">Mashuhuri</h2>
+      <h2 className="section-title">Fataawa</h2>
 
       {posts.map(post => {
         const { title, category, date, image } = post.frontmatter
