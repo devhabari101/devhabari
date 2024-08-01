@@ -17,20 +17,14 @@ const Footer = () => {
         <div>
             
          
-                <a className="footer-link"
-                  href="https://github.com/chrisnmorrison/revista-gatsby-blog-magazine"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  open-source blog template
-                </a>
+               
               
           </div>
           
        
         <div>
         <p className="footer-copyright">
-          &copy;2022-{new Date().getFullYear()} Devhabri,haki zote zimehifadhiwa.
+          &copy;2022-{new Date().getFullYear()} MASJID TAQWA (ILALA-BUNGONI),haki zote zimehifadhiwa.
         </p>
       </div>
       </div>
