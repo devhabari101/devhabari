@@ -60,7 +60,7 @@ const Navbar = ({ toggle }) => {
                 height='19'
               />
             {/* <img src={Heart} alt="" class="support-heart" /> */}
-            Tuwezeshe
+            Michango
           </Link>
         </div>
       </nav>
