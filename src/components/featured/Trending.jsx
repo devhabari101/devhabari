@@ -51,7 +51,7 @@ const Trending = () => {
 
   return (
     <div className="col-md-4 col-12">
-      <h2 className="section-title trending-title">Zinazo Trend</h2>
+      <h2 className="section-title trending-title">Sunnah</h2>
 
       {posts.map(post => {
         const { title, category, date, image } = post.frontmatter
