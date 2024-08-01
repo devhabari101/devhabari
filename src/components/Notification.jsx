@@ -6,8 +6,8 @@ const Notification = () => {
   return (
     <NotificationStyles>
       <div className="notification-top-bar">
-        <p>DevHabari inatafuta wawekezaji</p>
-        <Link to="/support-us">Tuwezeshe</Link>
+        <p>Wasilisha mchango wako</p>
+        <Link to="/support-us">Masjid taqwa(ilala-bungoni)</Link>
       </div>
     </NotificationStyles>
   )
