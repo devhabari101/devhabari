@@ -10,7 +10,7 @@ const Links = ({ styleClass, children }) => {
       </li>
 
        <li>
-        <Link to="" className="page-link">
+        <Link to="/tafsiri-ya-quran" className="page-link">
           Tafsiri ya Qur-aan
         </Link>
       </li>
