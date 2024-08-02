@@ -5,6 +5,15 @@ const readingTime = require('reading-time');
 const postTemplate = path.resolve(`./src/templates/post-template.jsx`);
 const categoryTemplate = path.resolve(`./src/templates/category-template.jsx`);
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type MdxFrontmatter {
+      includeInList: Boolean
+    }
+  `);
+};
+
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
   const result = await graphql(`
