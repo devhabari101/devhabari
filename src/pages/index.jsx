@@ -31,7 +31,7 @@ export const query = graphql`
     allMdx(
       limit: 3,
       sort: { frontmatter: { date: DESC } },
-      filter: { frontmatter: { excludeFromIndex: { ne: true } } }
+      filter: { frontmatter: { excludeFromIndex: { eq: false } } } # Adjust the query to match boolean logic
     ) {
       nodes {
         excerpt
