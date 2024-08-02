@@ -46,6 +46,8 @@
     "sass": "^1.52.3",
     "slugify": "^1.6.5",
     "styled-components": "^5.3.5",
+    "camelcase": "^8.0.0",
+    "common-tags": "1.8.2",
     "gatsby-remark-embedded-codesandbox": "^1.2.0",
     "gatsby-remark-responsive-iframe": "^6.12.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
