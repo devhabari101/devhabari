@@ -4,7 +4,6 @@ const readingTime = require('reading-time');
 
 const postTemplate = path.resolve(`./src/templates/post-template.jsx`);
 const categoryTemplate = path.resolve(`./src/templates/category-template.jsx`);
-const tafsiriPageTemplate = path.resolve(`./src/pages/tafsiri-ya-quran.jsx`);
 
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
@@ -70,10 +69,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     });
   });
 
-  // Ensure this path is correct
   createPage({
     path: `/tafsiri-ya-quran/`,
-    component: tafsiriPageTemplate,
+    component: path.resolve(`./src/pages/tafsiri-ya-quran.jsx`),
   });
 };
 
