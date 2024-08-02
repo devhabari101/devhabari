@@ -1,9 +1,9 @@
-import React from "react"
-import { graphql } from "gatsby"
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import React from "react";
+import { graphql } from "gatsby";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
 const TafsiriPage = ({ data }) => {
-  const { allMdx } = data
+  const { allMdx } = data;
 
   return (
     <div>
@@ -17,8 +17,8 @@ const TafsiriPage = ({ data }) => {
         ))}
       </ul>
     </div>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query {
@@ -37,6 +37,6 @@ export const query = graphql`
       }
     }
   }
-`
+`;
 
-export default TafsiriPage
+export default TafsiriPage;
