@@ -15,6 +15,7 @@ const TafsiriPage = ({ data }) => {
   const { allMdx } = data;
 
   if (!allMdx || !allMdx.nodes) {
+    console.error("No data available or data structure is incorrect", data);
     return <div>Error: No data available</div>;
   }
 
