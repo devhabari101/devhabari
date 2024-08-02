@@ -8,7 +8,7 @@ const TafsiriPage = () => (
     <p>This is the about page.</p>
     <h2>Related Articles</h2>
     <ul>
-      <li><Link to="/list1">Go to List 1</Link></li>
+      <li><Link to="/content/quran/list1/">Go to List 1</Link></li>
       
     </ul>
   </Layout>
