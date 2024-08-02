@@ -20,6 +20,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     query GetAllMdx {
       allMdx {
         nodes {
+          id
           frontmatter {
             title
             category
