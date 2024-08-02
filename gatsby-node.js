@@ -45,6 +45,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const posts = result.data.allMdx.nodes;
   const categories = result.data.categories.distinct;
 
+  // Create individual post pages
   posts.forEach(node => {
     if (!node.frontmatter.title || typeof node.frontmatter.title !== 'string') {
       reporter.warn(`Skipping node with missing or invalid title: ${JSON.stringify(node)}`);
@@ -54,11 +55,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     const slug = slugify(node.frontmatter.title, { lower: true });
     createPage({
       path: `/${node.frontmatter.category.toLowerCase()}/${slug}`,
-      component: `${postTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
+      component: postTemplate,
       context: { id: node.id, slug, title: node.frontmatter.title },
     });
   });
 
+  // Create category pages
   categories.forEach(category => {
     createPage({
       path: `/${category.toLowerCase()}`,
@@ -67,6 +69,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         category,
       },
     });
+  });
+
+  // Create specific page
+  createPage({
+    path: `/tafsiri-ya-quran/`,
+    component: path.resolve(`./src/pages/tafsiri-ya-quran.jsx`),
   });
 };
 
