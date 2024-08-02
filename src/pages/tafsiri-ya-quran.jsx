@@ -14,6 +14,10 @@ const TafsiriPage = ({ data }) => {
   // Extract allMdx from the data
   const { allMdx } = data;
 
+  if (!allMdx || !allMdx.nodes) {
+    return <div>Error: No data available</div>;
+  }
+
   return (
     <div>
       <h1>Content List</h1>
