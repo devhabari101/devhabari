@@ -69,6 +69,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     });
   });
 
+  // Create the tafsiri-ya-quran page
   createPage({
     path: `/tafsiri-ya-quran/`,
     component: path.resolve(`./src/pages/tafsiri-ya-quran.jsx`),
