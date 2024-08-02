@@ -14,15 +14,15 @@ require('dotenv').config({
 module.exports = {
   pathPrefix: `/`,
   siteMetadata: {
-    title: 'DevHabari',
+    title: 'MASJID TAQWA(ILALA-BUNGONI)',
     titleTemplate: '',
     // titleTemplate: "%s - Curated List of Free Education Resources",
      description:
-      'DevHabari ni jarida la tekinologia',
-    url: 'https://revista.mesmerdesign.ca', // No trailing slash allowed!
+      'Elimu ya qur-aan na sunnah',
+    url: '', // No trailing slash allowed!
     image: '/logo.png', // Path to the image placed in the 'static' folder, in the project's root directory.
     twitterUsername: '',
-    defaultTitle: 'DevHabari',
+    defaultTitle: 'MASJID TAQWA(ILALA-BUNGONI)',
   },
 
   plugins: [
@@ -69,25 +69,7 @@ module.exports = {
         ]
       }
     },
-    // {
-    //   resolve: 'gatsby-plugin-robots-txt',
-    //   options: {
-    //     host: 'https://mysite.com',
-    //     sitemap: 'https://mysite.com/sitemap.xml',
-    //     policy: [{ userAgent: '*', allow: '/' }],
-    //   },
-    // },
-//},
-    
-    // {
-    //   resolve: 'gatsby-plugin-robots-txt',
-    //   options: {
-    //     host: 'https://mysite.com',
-    //     sitemap: 'https://mysite.com/sitemap.xml',
-    //     policy: [{ userAgent: '*', allow: '/' }],
-    //   },
-    // },
-    // {
+   
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
