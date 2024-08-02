@@ -29,9 +29,9 @@ const IndexPage = ({ data }) => {
 export const query = graphql`
   query Home {
     allMdx(
-      limit: 3,
-      sort: { frontmatter: { date: DESC } },
-      filter: { frontmatter: { excludeFromIndex: { eq: false } } } # Adjust the query to match boolean logic
+      limit: 3
+      sort: { frontmatter: { date: DESC } }
+      filter: { frontmatter: { excludeFromIndex: { ne: true } } } # Exclude posts where excludeFromIndex is true
     ) {
       nodes {
         excerpt
