@@ -1,8 +1,17 @@
-import React from "react";
-import { graphql } from "gatsby";
-import { MDXRenderer } from "gatsby-plugin-mdx";
+// ./src/pages/tafsiri-ya-quran.jsx
+
+import React from 'react';
+import { graphql } from 'gatsby';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
+
+// Log to confirm that the component is being rendered
+console.log("Rendering TafsiriPage component");
 
 const TafsiriPage = ({ data }) => {
+  // Log the data to inspect its structure
+  console.log("Page data:", data);
+
+  // Extract allMdx from the data
   const { allMdx } = data;
 
   return (
