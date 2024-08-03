@@ -1,4 +1,5 @@
 import React from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { AiOutlineClockCircle } from 'react-icons/ai';
 import { GoCalendar } from 'react-icons/go';
@@ -8,7 +9,13 @@ import { getColor } from './utils/heroCategories';
 import slugify from 'slugify';
 import '../components/featured/features-styles.scss';
 
-const RecentPosts = ({ posts }) => {
+const RecentPosts = () => {
+  const data = useStaticQuery(query);
+
+  const {
+    allMdx: { nodes: posts },
+  } = data;
+
   return (
     <section className="container">
       <div className="row">
@@ -23,9 +30,7 @@ const RecentPosts = ({ posts }) => {
                 key={post.id}
                 className="card card-bg card-shadow recent-article-mb"
               >
-                <Link
-                  to={`/${category.toLowerCase()}/${slug || slugify(title, { lower: true })}`}
-                >
+                <Link to={slug}>
                   <GatsbyImage
                     image={getImage(image)}
                     alt={title}
@@ -34,9 +39,7 @@ const RecentPosts = ({ posts }) => {
                 </Link>
 
                 <div className="card-body">
-                  <Link
-                    to={`/${category.toLowerCase()}/${slug || slugify(title, { lower: true })}`}
-                  >
+                  <Link to={slug}>
                     <h3 className="recent-articles-heading">{title}</h3>
                   </Link>
 
@@ -67,14 +70,12 @@ const RecentPosts = ({ posts }) => {
                       </ul>
                     </li>
                   </ul>
-                  <Link
-                    to={`/${category.toLowerCase()}/${slug || slugify(title, { lower: true })}`}
-                  >
+                  <Link to={slug}>
                     <p className="excerpt">{post.excerpt}</p>
                   </Link>
                   <a
                     className="btn btn-outline-primary"
-                    href={`/${category.toLowerCase()}/${slugify(title, { lower: true })}`}
+                    href={slug}
                   >
                     Soma Zaidi
                   </a>
@@ -88,5 +89,32 @@ const RecentPosts = ({ posts }) => {
     </section>
   );
 };
+
+export const query = graphql`
+  query RecentPosts {
+    allMdx(sort: { frontmatter: { date: DESC } }, limit: 300) {
+      nodes {
+        excerpt
+        frontmatter {
+          title
+          category
+          date(formatString: "MMMM, Do YYYY")
+          slug
+          image {
+            childImageSharp {
+              gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED)
+            }
+          }
+        }
+        id
+        fields {
+          timeToRead {
+            words
+          }
+        }
+      }
+    }
+  }
+`;
 
 export default RecentPosts;
