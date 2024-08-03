@@ -29,7 +29,7 @@ const IndexPage = ({ data }) => {
 export const query = graphql`
   query Home {
     allMdx(
-      limit: 3
+      limit: 3,
       sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { excludeFromIndex: { ne: true } } }
     ) {
