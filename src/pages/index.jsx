@@ -10,8 +10,11 @@ const IndexPage = ({ data }) => {
   const { allMdx: { nodes: posts } } = data;
   const { site: { siteMetadata: metadata } } = data;
 
+  // Filter posts based on the excludeFromIndex field
+  const filteredPosts = posts.filter(post => !post.frontmatter.excludeFromIndex);
+
   // Log to check filtered posts
-  console.log('Filtered posts:', posts);
+  console.log('Filtered posts:', filteredPosts);
 
   return (
     <Layout>
@@ -21,7 +24,7 @@ const IndexPage = ({ data }) => {
       />
       <Featured />
       <Notification />
-      <RecentPosts posts={posts} />
+      <RecentPosts posts={filteredPosts} />
     </Layout>
   );
 }
@@ -29,9 +32,7 @@ const IndexPage = ({ data }) => {
 export const query = graphql`
   query Home {
     allMdx(
-      limit: 3,
       sort: { frontmatter: { date: DESC } }
-      filter: { frontmatter: { excludeFromIndex: { ne: true } } }
     ) {
       nodes {
         excerpt
