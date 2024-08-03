@@ -48,6 +48,11 @@ export const query = graphql`
           }
         }
         id
+        fields {
+          timeToRead {
+            words
+          }
+        }
       }
     }
     site {
