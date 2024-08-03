@@ -31,7 +31,7 @@ export const query = graphql`
     allMdx(
       limit: 3
       sort: { frontmatter: { date: DESC } }
-      filter: { frontmatter: { excludeFromIndex: { ne: true } } } # Exclude posts where excludeFromIndex is true
+      filter: { frontmatter: { excludeFromIndex: { ne: true } } }
     ) {
       nodes {
         excerpt
@@ -39,6 +39,7 @@ export const query = graphql`
           title
           category
           date(formatString: "MMMM Do, YYYY")
+          excludeFromIndex
           image {
             childImageSharp {
               gatsbyImageData
