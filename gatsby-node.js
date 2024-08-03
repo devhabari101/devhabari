@@ -6,6 +6,8 @@ const readingTime = require('reading-time');
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
+  
+  // GraphQL query to fetch all MDX nodes and distinct categories
   const result = await graphql(`
     query GetAllMdx {
       allMdx {
@@ -45,27 +47,41 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const posts = result.data.allMdx.nodes;
   const categories = getCategories.data.categories.distinct;
 
+  // Log all posts for debugging purposes
+  console.log('All Posts:', posts);
+
+  // Create pages for each post
   posts.forEach(node => {
     const categorySlug = slugify(node.frontmatter.category, { lower: true });
     const slug = node.frontmatter.slug
       ? node.frontmatter.slug
       : `/${categorySlug}/${slugify(node.frontmatter.title, { lower: true })}`;
 
-    console.log(`Creating post page: ${slug}`);
+    console.log(`Creating post page: Title: ${node.frontmatter.title}, Category: ${node.frontmatter.category}, Generated Slug: ${slug}, FilePath: ${node.internal.contentFilePath}`);
+    
     createPage({
       path: slug,
       component: `${postTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
-      context: { id: node.id, slug, title: node.frontmatter.title, category: node.frontmatter.category },
+      context: {
+        id: node.id,
+        slug,
+        title: node.frontmatter.title,
+        category: node.frontmatter.category,
+      },
     });
   });
 
+  // Create category pages
   categories.forEach(category => {
     const categorySlug = slugify(category, { lower: true });
     console.log(`Creating category page: /${categorySlug}`);
+    
     createPage({
       path: `/${categorySlug}`,
       component: categoryTemplate,
-      context: { category },
+      context: {
+        category,
+      },
     });
   });
 };
