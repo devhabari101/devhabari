@@ -4,8 +4,7 @@ const postTemplate = path.resolve(`./src/templates/post-template.jsx`);
 const categoryTemplate = path.resolve(`./src/templates/category-template.jsx`);
 const readingTime = require('reading-time');
 
-// Create pages dynamically
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
   const result = await graphql(`
     query GetAllMdx {
@@ -25,6 +24,11 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`);
+    return;
+  }
+
   const getCategories = await graphql(`
     query GetDistinctCategories {
       categories: allMdx {
@@ -33,16 +37,21 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
+  if (getCategories.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`);
+    return;
+  }
+
   const posts = result.data.allMdx.nodes;
   const categories = getCategories.data.categories.distinct;
 
   posts.forEach(node => {
+    const categorySlug = slugify(node.frontmatter.category, { lower: true });
     const slug = node.frontmatter.slug
       ? node.frontmatter.slug
-      : `/${node.frontmatter.category.toLowerCase()}/${slugify(node.frontmatter.title, { lower: true })}`;
+      : `/${categorySlug}/${slugify(node.frontmatter.title, { lower: true })}`;
 
     console.log(`Creating post page: ${slug}`);
-
     createPage({
       path: slug,
       component: `${postTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
@@ -51,9 +60,10 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   categories.forEach(category => {
-    console.log(`Creating category page: /${category.toLowerCase()}`);
+    const categorySlug = slugify(category, { lower: true });
+    console.log(`Creating category page: /${categorySlug}`);
     createPage({
-      path: `/${category.toLowerCase()}`,
+      path: `/${categorySlug}`,
       component: categoryTemplate,
       context: { category },
     });
