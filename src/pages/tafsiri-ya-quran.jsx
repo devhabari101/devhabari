@@ -9,7 +9,7 @@ const TafsiriPage = () => (
 
 <p>Na kwamba hii ndiyo njia Yangu iliyonyooka, basi ifuateni. Na wala msifuate njia nyinginezo zitakufarikisheni na Njia Yake. [Al-An’aam (6:153)]</p>
     <ul>
-      <li><Link to="/QUR-AAN/list-1/">Go to List 1</Link></li>
+      <li><Link to="/qur-aan/list-1/">Go to List 1</Link></li>
       
     </ul>
   </Layout>
