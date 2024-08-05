@@ -92,7 +92,11 @@ const RecentPosts = () => {
 
 export const query = graphql`
   query RecentPosts {
-    allMdx(sort: { frontmatter: { date: DESC } }, limit: 300) {
+    allMdx(
+      sort: { frontmatter: { date: DESC } }
+      limit: 300
+      filter: { frontmatter: { excludeFromIndex: { ne: true } } }
+    ) {
       nodes {
         excerpt
         frontmatter {
