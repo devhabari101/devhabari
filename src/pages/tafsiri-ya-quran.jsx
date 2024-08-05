@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 
 const TafsiriPage = () => (
-
+<Layout>
  <div className="container support-container">
           <div className="row">
             <div className="col-md-12">
@@ -19,19 +19,11 @@ const TafsiriPage = () => (
              <li><Link to="/quran/al-adiyat/">AL-ADIYAT</Link></li>
              <li><Link to="/quran/al-qaria/">AL-QARIA</Link></li>
              <li><Link to="/quran/at-takathur/">AT-TAKATHUR</Link></li>
+             <li><Link to="/quran/al-asr/">AL-ASR</Link></li>
             </ul>
             </div>
           </div>
          </div>
-
-
-
-
-
-
-  
-  <Layout>
-    <h1></h1>
 
 
   </Layout>
