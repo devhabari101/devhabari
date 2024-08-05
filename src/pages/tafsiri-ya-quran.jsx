@@ -11,9 +11,9 @@ const TafsiriPage = () => (
           
               
               <p> وَأَنَّ هَـٰذَا صِرَاطِي مُسْتَقِيمًا فَاتَّبِعُوهُ ۖ  وَلَا تَتَّبِعُوا السُّبُلَ فَتَفَرَّقَ بِكُمْ عَن سَبِيلِهِ ۚ</p>
-              <p>Kufikia azima hiyo, haya ni maono na mikakati ya DevHabari:</p>
-
+             
              <p>Na kwamba hii ndiyo njia Yangu iliyonyooka, basi ifuateni. Na wala msifuate njia nyinginezo zitakufarikisheni na Njia Yake. [Al-An’aam (6:153)]</p>
+             
              <ul>
              <li><Link to="/quran/al-fatiha/">Al-FATIHA</Link></li>
              <li><Link to="/quran/al-adiyat/">AL-ADIYAT</Link></li>
