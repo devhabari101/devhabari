@@ -12,6 +12,7 @@ const TafsiriPage = () => (
       <li><Link to="/quran/al-fatiha/">Al-FATIHA</Link></li>
       <li><Link to="/quran/al-adiyat/">AL-ADIYAT</Link></li>
       <li><Link to="/quran/al-qaria/">AL-QARIA</Link></li>
+      <li><Link to="/quran/at-takathur/">AT-TAKATHUR</Link></li>
     </ul>
   </Layout>
 );
