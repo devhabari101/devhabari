@@ -16,7 +16,7 @@ const Links = ({ styleClass, children }) => {
       </li>
 
        <li>
-        <Link to="" className="page-link">
+        <Link to="/hutuba" className="page-link">
           Hutuba za ijumaa
         </Link>
       </li>
