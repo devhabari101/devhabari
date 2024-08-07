@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const SoundCloudEmbedWrapper = styled.div`
   width: 50%;
-  height: 400px; /* Adjust this value to get the desired height */
+  height: 450px; /* Adjust this value to get the desired height */
   position: relative;
   overflow: hidden;
   
