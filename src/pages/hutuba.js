@@ -64,7 +64,7 @@ export const query = graphql`
 `;
 
 const CategoryPostsStyles = styled.section`
-  margin: 4rem 0;
+  margin: 2rem 0;
 `;
 
 const EmbedContainer = styled.div`
