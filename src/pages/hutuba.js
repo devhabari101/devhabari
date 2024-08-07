@@ -1,11 +1,10 @@
-// src/pages/hutuba.js
 import React from 'react';
 import Layout from '../components/Layout';
 import Posts from '../components/Posts';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import Seo from '../components/SEO';
-import YouTubeMusicEmbed from '../components/YouTubeMusicEmbed';
+import SoundCloudEmbed from '../components/SoundCloudEmbed';
 
 const HutubaPage = props => {
   const {
@@ -23,7 +22,7 @@ const HutubaPage = props => {
         <CategoryPostsStyles>
           <Posts posts={posts} title={`${category}`} />
         </CategoryPostsStyles>
-        <YouTubeMusicEmbed playlistId="PL6KDSA-xqq5GS9rpFBnDuW3QWeQ8q6zzA" />
+        <SoundCloudEmbed trackUrl="https://api.soundcloud.com/tracks/1891157031" />
       </Layout>
       <Seo
         title={`${category} | DevHabari`}
