@@ -2,11 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 const SoundCloudEmbedWrapper = styled.div`
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 400px; /* Adjust this value to get the desired height */
   position: relative;
   overflow: hidden;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
   
   iframe {
     position: absolute;
