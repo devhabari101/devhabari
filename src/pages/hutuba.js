@@ -22,7 +22,9 @@ const HutubaPage = props => {
         <CategoryPostsStyles>
           <Posts posts={posts} title={`${category}`} />
         </CategoryPostsStyles>
-        <SoundCloudEmbed trackUrl="https://api.soundcloud.com/tracks/1891157031" />
+        <EmbedContainer>
+          <SoundCloudEmbed trackUrl="https://api.soundcloud.com/tracks/1891157031" />
+        </EmbedContainer>
       </Layout>
       <Seo
         title={`${category} | DevHabari`}
@@ -63,6 +65,10 @@ export const query = graphql`
 
 const CategoryPostsStyles = styled.section`
   margin: 4rem 0;
+`;
+
+const EmbedContainer = styled.div`
+  margin-top: 2rem;
 `;
 
 export default HutubaPage;
