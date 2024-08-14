@@ -67,7 +67,28 @@ mwaka 1962 lingo hilo likafa.</p>
 kwa viongozi wa Msikiti ili aendeshe Gereji. Naye alikubaliwa hadi mwaka 1973 uongozi wa msikiti
 uliondosha gereji hiyo baada ya bwana huyo kuvunja masharti waliyokubaliana awali.Kwahiyo,Viongozi
 waliamua kuuvunja Msikiti huo wa miti na kuujenga upya kwa kutumia matofali ikiwa ni pamoja na
-kuuboresha kwa kuongeza katika jengo jipya sehemu ya kuswalia wanawake.</p>      
+kuuboresha kwa kuongeza katika jengo jipya sehemu ya kuswalia wanawake.</p>
+
+<h2 className="support-title">TANBIHI;</h2>
+              
+<p>Mwaka wa 1969 Ramani za mwanzo za Mipango miji ya Jiji la Dar es Salaam ziliandaliwa na eneo la
+upande wa Mashariki wa eneo la Msikiti huo likafanywa kuwa ni eneo la wazi (Open Space) bila ya
+kushirikisha uongozi wa Msikiti katika kufanya maamuzi hayo ya kutwaa eneo la Msikiti</p> 
+
+ <h3>YALIYOJITOKEZA MWAKA 1975 HADI 1980.</h3>
+<p>Mwaka 1975 Halmashauri ya Jiji la Dar es Salaam ilijenga Bustani na kuweka mabembea kwa ajili ya
+michezo ya watoto kwenye maeneo yale:</p>
+<ul>
+    <li>
+        Sehemu ya uwanja wa Msikiti wa Bungoni (ambalo waliliita OpenSpace) ambapo hadi sasa hakuna
+        athari hata moja ya mabembea hayo huku wakisahau kuwa hapo palikuwa ni sehemu ya uwanja wa
+        Msikiti.
+    </li>
+    <li>
+        Kwenye uwanja wa Soko la Ilala ambapo sasa athari ya mabembea nako hakuna; na uwanja umerudi
+        katika asili yake ya soko na leo ndiyo eneo linalouziwa mitumba.
+    </li>
+</ul>             
 
               {/* Item */}
               <div className="support-item">
