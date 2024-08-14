@@ -53,7 +53,20 @@ kuendelea kuzikana tena hapo kwatahadhari ya kwamba wakati wa kutaka kupanua Msi
               
 <p>Kwahiyo makaburi yote yaliondoshwa na likabakishwa kaburi moja tu la Sheikh Yusuf bin Said lililokuwa
 ndani ya Msikiti ambalo nalo pia mwaka 2000 likaondoshwa baada ya kushauriana na familia ya
-marehemu Sheikh Yusuf bin Said.</p>          
+marehemu Sheikh Yusuf bin Said.</p>
+
+<h2 className="support-title"> 2. YALIYOJIRI KATIKA MIAKA YA 1940 HADI 1973.</h2>
+<p></p>Mwanzoni mwa miaka ya 1940 marehemu Mzee Aziz Ali na Mzee John Rupia waliomba idhini Serikalini
+ili watumie sehemu ya uwanja wa Msikiti wa Michongomani kwa lengo la kuweka Lingo la kuni. Hata
+hivyo, Serikali iliwaelekeza wapeleke maombi yao kwa Viongozi wa Msikiti wa Michongomani. Viongozi
+wa Msikiti waliwakubaliana na ombi lao na Lingo la Kuni liliendelea kuwepo hapo hadi mwanzoni mwa
+mwaka 1962 lingo hilo likafa.</p>
+            
+<p>Hatimae eneo lililokuwa likitumika kama lingo la kuni liliombwa tena na Bwana KIBIK MWINYIPEMBE
+kwa viongozi wa Msikiti ili aendeshe Gereji. Naye alikubaliwa hadi mwaka 1973 uongozi wa msikiti
+uliondosha gereji hiyo baada ya bwana huyo kuvunja masharti waliyokubaliana awali.Kwahiyo,Viongozi
+waliamua kuuvunja Msikiti huo wa miti na kuujenga upya kwa kutumia matofali ikiwa ni pamoja na
+kuuboresha kwa kuongeza katika jengo jipya sehemu ya kuswalia wanawake.</p>      
 
               {/* Item */}
               <div className="support-item">
