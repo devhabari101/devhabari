@@ -6,7 +6,6 @@ import { GoCalendar } from 'react-icons/go';
 import { Link } from 'gatsby';
 import SidebarWide from './Sidebar/indexWide';
 import { getColor } from './utils/heroCategories';
-import slugify from 'slugify';
 import '../components/featured/features-styles.scss';
 
 const RecentPosts = () => {
