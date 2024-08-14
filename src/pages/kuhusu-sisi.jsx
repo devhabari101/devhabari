@@ -39,7 +39,8 @@ const contact = () => {
    <li> Marehemu Mohaned Shaha</li>
    <li>Marehemu Mohamedi Nyamgunda</li>
 </ul>
- <hr></hr>             
+ <hr></hr>
+ <p></p>             
 <p>Mnamo mwaka 1935, Waasisi hao waliongozwa na Marehemu Mzee Mwinyi Mshindo walishauriana
 kuongeza Msikiti na baada ya kupata Kibali cha Bwana DC wa wakati huo, walijenga Msikiti kwa kutumia
 miti na matope hapo Michongomani.</p>
