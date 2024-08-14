@@ -39,8 +39,19 @@ const contact = () => {
    <li> Marehemu Mohaned Shaha</li>
    <li>Marehemu Mohamedi Nyamgunda</li>
 </ul>
-
-              <p>Kufikia azima hiyo, haya ni maono na mikakati ya DevHabari:</p>
+<p>Mnamo mwaka 1935, Waasisi hao waliongozwa na Marehemu Mzee Mwinyi Mshindo walishauriana
+kuongeza Msikiti na baada ya kupata Kibali cha Bwana DC wa wakati huo, walijenga Msikiti kwa kutumia
+miti na matope hapo Michongomani.</p>
+              
+<p>Msikiti huo uliendelea kupanuliwa kwa kadri ya waumini walivyokuwa wakiongezeka. Kwa upande wa
+mashariki kati ya Mtaa wa Tukuyu/ Ngoma Wazee hao walijenga Zawiya, Madrasa na nyumba ya Imam
+Sheikh Yusuf Said. Aidha upande wa kusini mwa Msikiti huo kulikuwa ni eneo la makaburi lakuzikia
+Waislam ambapo baadae Uongozi wa Msikiti uliamua kuyaondosha makaburi hayo na kutoruhusu watu
+kuendelea kuzikana tena hapo kwatahadhari ya kwamba wakati wa kutaka kupanua Msikiti isiwe tabu.</p>
+              
+<p>Kwahiyo makaburi yote yaliondoshwa na likabakishwa kaburi moja tu la Sheikh Yusuf bin Said lililokuwa
+ndani ya Msikiti ambalo nalo pia mwaka 2000 likaondoshwa baada ya kushauriana na familia ya
+marehemu Sheikh Yusuf bin Said.</p>          
 
               {/* Item */}
               <div className="support-item">
