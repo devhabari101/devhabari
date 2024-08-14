@@ -18,12 +18,18 @@ const contact = () => {
         <div className="container support-container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="section-title categories-title">Jarida letu</h1>
+              <h1 className="section-title categories-title">HISTORIA YA MSIKITI WA TAQWA BUNGONI</h1>
           
               <p>
-               DevHabari ni jarida la mtandaoni lililo andaliwa kwa lengo la kubadilishana 
-
-              Ujuzi inapokuja kwenye swala la kutumia tekinologia Ili kutatua changamoto mbali mbali! 
+               Msikiti huu ambao upo hapa kati ya mtaa wa Bungoni na Mtaa wa Ngoma katika Serilkali ya
+              Mtaa wa Kasulo, Kata ya Ilala, Manispaa ya Ilala, Dar es Salaam, hapo awali ulikuwa umetokea
+              katika eneo lililokuwa likijulikana kama GINDA ambapo sasa ndipo panapoitwa Gerezani
+              Railway Club. Katika miaka ya 1930 ndipo ulipohamishiwa katika eneo lililokuwa likiitwa
+              Michongomani ( ambalo kwa sasa ndiyo hapa Mtaa wa Bungoni) chini ya Waasisi wafuatao:-
+             <li>1. Marehemu Sheikh Yusuf bin Saidi (aliyekuwa Imam)
+             2. Marehemu Mwinyimkuu Suleiman Hega
+             3. Marehemu Saidi Mwaruka
+               </li>
               </p>
               <p>Kufikia azima hiyo, haya ni maono na mikakati ya DevHabari:</p>
 
