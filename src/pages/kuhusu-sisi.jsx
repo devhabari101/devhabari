@@ -55,8 +55,9 @@ kuendelea kuzikana tena hapo kwatahadhari ya kwamba wakati wa kutaka kupanua Msi
 ndani ya Msikiti ambalo nalo pia mwaka 2000 likaondoshwa baada ya kushauriana na familia ya
 marehemu Sheikh Yusuf bin Said.</p>
 
-<h2 className="support-title"> 2. YALIYOJIRI KATIKA MIAKA YA 1940 HADI 1973.</h2>
-<p></p>Mwanzoni mwa miaka ya 1940 marehemu Mzee Aziz Ali na Mzee John Rupia waliomba idhini Serikalini
+<h2 className="support-title">YALIYOJIRI KATIKA MIAKA YA 1940 HADI 1973.</h2>
+              
+<p>Mwanzoni mwa miaka ya 1940 marehemu Mzee Aziz Ali na Mzee John Rupia waliomba idhini Serikalini
 ili watumie sehemu ya uwanja wa Msikiti wa Michongomani kwa lengo la kuweka Lingo la kuni. Hata
 hivyo, Serikali iliwaelekeza wapeleke maombi yao kwa Viongozi wa Msikiti wa Michongomani. Viongozi
 wa Msikiti waliwakubaliana na ombi lao na Lingo la Kuni liliendelea kuwepo hapo hadi mwanzoni mwa
