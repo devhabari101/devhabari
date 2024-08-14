@@ -31,6 +31,13 @@ const contact = () => {
     <li>Marehemu Sheikh Yusuf bin Saidi (aliyekuwa Imam)</li>
     <li>Marehemu Mwinyimkuu Suleiman Hega</li>
     <li>Marehemu Saidi Mwaruka</li>
+    <li>Marehemu Mwinyi Mshindo</li>
+    <li>Marehemu Mwinyi Khamisi Bakari</li>
+    <li> Marehemu Yusuf Ibrahim</li>
+   <li> Marehemu Mohamedi Harmnisi</li>
+   <li> Marehemu Mzee Hashim Mwinshehe</li>
+   <li> Marehemu Mohaned Shaha</li>
+   <li>Marehemu Mohamedi Nyamgunda</li>
 </ul>
 
               <p>Kufikia azima hiyo, haya ni maono na mikakati ya DevHabari:</p>
