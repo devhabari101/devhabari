@@ -88,7 +88,8 @@ michezo ya watoto kwenye maeneo yale:</p>
         Kwenye uwanja wa Soko la Ilala ambapo sasa athari ya mabembea nako hakuna; na uwanja umerudi
         katika asili yake ya soko na leo ndiyo eneo linalouziwa mitumba.
     </li>
-</ul>             
+</ul>
+              <br></br>
 <h2 className="support-title">JITIHADA ZETU NA KUFANIKIWA KWETU</h2>
 <ol>
     <li>
@@ -96,11 +97,13 @@ michezo ya watoto kwenye maeneo yale:</p>
         Wizara ya Ardhi, Nyumba na Maendeleo ya Makazi kuomba wapimiwe kiwanja cha msikiti
         ili wapate hati na kumiliki kihalali.
     </li>
+  <br></br>
     <li>
         Wizara ya Ardhi tarehe 23 Februari, 2001 ilimuandikia Mkurugenzi wa Manispaa ya Ilala barua
         Kumbu. Na.TP/01/260/XV/154 na kumtaka afanye utafiti na kupata historia ya ukweli kuhusu
         eneo hilo na itumie vikao vyake vya kisheria na kisha waishauri Wizara kwa hatua zaidi.
     </li>
+  <br></br>
     <li>
         Mwezi Septemba, 2002 Manispaa ya Ilala iliiandikia Wizara ya Ardhi na kuishauri kuwa Msikiti
         wa Bungoni wapimiwe kiwanja cha ukubwa wa eneo la mita za mraba 26 kwa 40 tu.
