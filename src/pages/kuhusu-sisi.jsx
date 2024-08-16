@@ -114,6 +114,31 @@ michezo ya watoto kwenye maeneo yale:</p>
         hili. Ndipo aliyekuwa Mbunge wa Ilala wakati huo Mheshimiwa Idi Simba na Meya wa
         Manispaa hiyo Mheshimiwa Abuu Jumaa walipofika Msikitini na kuingilia kati na kuwatuliza.
     </li>
+  <br></br>
+<li>Jitihada za Viongozi wa Msikiti katika kufuatilia upatikanaji wa hati kwa madai ya kupewa eneo
+linalostahili Msilkiti ziliendelea, hadi tarehe 08/03/2010 alivekuwa Waziri wa Ardhi wakati huo
+Mheshimiwa John Chiligati aliswasili hapa Masjid Taqwa Bungoni akiongozana na timu yake ya
+Maafisa kadhaa toka Wizarani na Manispaa ya Ilala kuhusiana na kadhia ya upimaji wa kiwanja
+cha Msikiti.
+</li>
+<br></br>  
+<li>Mheshimiwa Chiligati baada ya kusikiliza kwa makini maelezo ya historia hii tunayokupa leo
+Mhesshimiwa Mgeni rasni, aliamua kwenda kulitembelea eneo tulilokuwa tunaliomba na
+kujionea mwenyewe hali halisi dhidi ya madai ya Waislam.
+</li>
+<br></br>  
+<li>Tarehe 17 March, 2010 Wizara ya Ardhi ilimuandikia barua Mkurugenzi wa Manispaa ya Ilala
+yenye kumbu. Na. CA 87/288/05/135 ikimueleza kwamba Mheshimiwa Waziri ameridhia
+kuongezwa kwa eneo la Msikiti kwa kufanya marekebisho katika eneo la wazi kama
+inavyoonyesha katika mchoro wa Mipango miji Na. 1/512/369H.
+</li>
+<br></br>  
+<li>Tarehe 21/10/2010 Uongozi wa Masjid Taqwa ulipokea barua toka kwa Kamishna wa Ardhi
+iliyoutaka uongozi wa Msikiti kulipa shilingi 1,335,150/- kama malipo ya mbele (Premium) kwa
+mujibu wa sheria ya Ardhi Na 4 ya mwaka 1999, Uongozi ulilipa fedha hizo na kuwasilisha
+Wizarani cheti cha Usajili wa Baraza la Wadhamini pamoja na kibali cha Kabidhi Wasii Mkuu kwa
+ajili ya maandalizi ya Hati kama ilivyoelekezwa na Wizara.
+</li>  
 </ol>
               {/* Item */}
               <div className="support-item">
