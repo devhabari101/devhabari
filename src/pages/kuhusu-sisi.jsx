@@ -75,7 +75,7 @@ kuuboresha kwa kuongeza katika jengo jipya sehemu ya kuswalia wanawake.</p>
 upande wa Mashariki wa eneo la Msikiti huo likafanywa kuwa ni eneo la wazi (Open Space) bila ya
 kushirikisha uongozi wa Msikiti katika kufanya maamuzi hayo ya kutwaa eneo la Msikiti</p> 
 
- <h3>YALIYOJITOKEZA MWAKA 1975 HADI 1980.</h3>
+ <h2 className="support-title">YALIYOJITOKEZA MWAKA 1975 HADI 1980.</h2>
 <p>Mwaka 1975 Halmashauri ya Jiji la Dar es Salaam ilijenga Bustani na kuweka mabembea kwa ajili ya
 michezo ya watoto kwenye maeneo yale:</p>
 <ul>
@@ -89,7 +89,29 @@ michezo ya watoto kwenye maeneo yale:</p>
         katika asili yake ya soko na leo ndiyo eneo linalouziwa mitumba.
     </li>
 </ul>             
-
+<h2 className="support-title">JITIHADA ZETU NA KUFANIKIWA KWETU</h2>
+<ol>
+    <li>
+        Mwanzoni mwa mwaka 2001 Baraza la Wadhamini la Masjid Taqwa Bungoni liliwasilisha maombi
+        Wizara ya Ardhi, Nyumba na Maendeleo ya Makazi kuomba wapimiwe kiwanja cha msikiti
+        ili wapate hati na kumiliki kihalali.
+    </li>
+    <li>
+        Wizara ya Ardhi tarehe 23 Februari, 2001 ilimuandikia Mkurugenzi wa Manispaa ya Ilala barua
+        Kumbu. Na.TP/01/260/XV/154 na kumtaka afanye utafiti na kupata historia ya ukweli kuhusu
+        eneo hilo na itumie vikao vyake vya kisheria na kisha waishauri Wizara kwa hatua zaidi.
+    </li>
+    <li>
+        Mwezi Septemba, 2002 Manispaa ya Ilala iliiandikia Wizara ya Ardhi na kuishauri kuwa Msikiti
+        wa Bungoni wapimiwe kiwanja cha ukubwa wa eneo la mita za mraba 26 kwa 40 tu.
+        Habari hizo zilipopatikana hapo Msikitini zilileta mtafaruku mkubwa sana kwa Viongozi,
+        Waumini na Waislam kwa jumla kuona kwamba tunaonewa kwa kunyang’anywa eneo ambalo
+        tuna asili nalo kwa muda mrefu kisha tupewe kijipande kidogo sana cha ardhi hali ambayo kama
+        si busara za Viongozi ingeleta uvunjifu wa amani na kukosekana utulivu kwa Waislam wa eneo
+        hili. Ndipo aliyekuwa Mbunge wa Ilala wakati huo Mheshimiwa Idi Simba na Meya wa
+        Manispaa hiyo Mheshimiwa Abuu Jumaa walipofika Msikitini na kuingilia kati na kuwatuliza.
+    </li>
+</ol>
               {/* Item */}
               <div className="support-item">
                 <div>
