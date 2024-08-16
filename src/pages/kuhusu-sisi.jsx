@@ -138,8 +138,29 @@ iliyoutaka uongozi wa Msikiti kulipa shilingi 1,335,150/- kama malipo ya mbele (
 mujibu wa sheria ya Ardhi Na 4 ya mwaka 1999, Uongozi ulilipa fedha hizo na kuwasilisha
 Wizarani cheti cha Usajili wa Baraza la Wadhamini pamoja na kibali cha Kabidhi Wasii Mkuu kwa
 ajili ya maandalizi ya Hati kama ilivyoelekezwa na Wizara.
-</li>  
+</li> 
+  <br></br>
+<li>HATIMAE KWA FADHILA ZA MWENYEZI MUNGU tarehe 02/11/2010 HATI MILKI NAMBA 88445
+ya miaka 99 ya kiwanja cha Msikiti kwa jina la REGISTERED TRUSTEES OF MASJID TAQWA
+BUNGONI ilipatikana.
+</li>
+ <br></br> 
+<li>Baada ya kupata HATI hiyo, tuliendelea na hatua mbalimbali za ujenzi wa msikiti huu kwa
+kuanzia na kibali cha ujenzi ambacho kilitolewa tarehe 26/09/2011 chenye namba 1849.
+</li>
+  <br></br>
 </ol>
+
+<h2 className="support-title">KAZI ZA MSIKITI KAMA TAASISI NA MATARAJIO YETU:</h2>
+
+<p>Hapa kwa kifupi sana tunapenda kueleza kwamba, Msikiti ni Taasisi va Kijamii. Toka wakati wa Mtume
+wetu Muhammad S.A.W. Misikiti imekuwa ikitumika kama Kituo cha Elimu, sehemu ya malezi bora ya
+kiroho na kimaadili na harakati mbalimbali za kiuchumi na maendeleo, n.k.
+Ni matarajio yetu kwamba, Msikiti huu utadumisha Amani na Upendo kwa jamii yote inayotuzunguuka
+bila ya kujali tofauti za imani, ikhtilafu za kimadhehebu na nyinginezo. Aidha tutadumisha ushirikiano
+uliopo na Misikiti mingine ya jirani na hata iliyopo nje ya Kata yetu ikiwa ni pamoja na kuishi na watu
+kwa wema na ihsani. 
+</p>  
               {/* Item */}
               <div className="support-item">
                 <div>
